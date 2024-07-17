@@ -5,7 +5,7 @@ from src.ml.model import train_model, compute_model_metrics, inference, calculat
 from sklearn.ensemble import RandomForestClassifier
 
 
-def test_compute_model_metrics():
+def test_compute_model_metrics_correct():
     # Test case 1: All predictions are correct
     y_true = np.array([0, 1, 0, 1])
     y_pred = np.array([0, 1, 0, 1])
@@ -13,6 +13,9 @@ def test_compute_model_metrics():
     assert precision == 1.0
     assert recall == 1.0
     assert fbeta == 1.0
+
+
+def test_compute_model_metrics_incorrect():
 
     # Test case 2: All predictions are incorrect
     y_true = np.array([0, 1, 0, 1])
@@ -22,6 +25,7 @@ def test_compute_model_metrics():
     assert recall == 0.0
     assert fbeta == 0.0
 
+def test_compute_model_metrics_mixed():
     # Test case 3: Mixed predictions
     y_true = np.array([0, 1, 0, 1, 0, 1])
     y_pred = np.array([0, 0, 1, 1, 0, 1])
