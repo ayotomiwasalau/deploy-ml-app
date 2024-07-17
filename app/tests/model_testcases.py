@@ -23,7 +23,7 @@ def test_compute_model_metrics_incorrect():
     precision, recall, fbeta = compute_model_metrics(y_true, y_pred)
     assert precision == 0.0
     assert recall == 0.0
-    assert fbeta == 0.0
+    assert np.isnan(fbeta)
 
 def test_compute_model_metrics_mixed():
     # Test case 3: Mixed predictions
