@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 try:
     from app.src.ml.data import process_data
-except ImportError:
+except Exception:
     from ml.data import process_data
 
 

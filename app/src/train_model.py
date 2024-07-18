@@ -14,6 +14,8 @@ root_path = "app" #os.path.dirname(__file__)
 path = os.path.join(root_path, 'data/cleaned_census.csv')
 data = pd.read_csv(path)
 
+data = data.drop(['Unnamed: 0'], axis=1)
+
 logging.info('Preprocessing data...')
 
 # Optional enhancement, use K-fold cross validation instead of a train-test split.
@@ -75,5 +77,3 @@ logging.info('Check app/log/slice_output.txt for metrics on each categroprical f
 
 # Compute slices and their metrics
 calculate_slices(data, ld_model, cat_features, encoder, lb)
-
-# TODO: set up github workflow

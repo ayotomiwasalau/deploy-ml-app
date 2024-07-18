@@ -1834,3 +1834,2451 @@ Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
 native-country: Holand-Netherlands, size: 1, 16
 Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
 
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9602 | Recall: 0.9575 | F1: 0.9589
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9749 | Recall: 0.9116 | F1: 0.9422
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9555 | Recall: 0.9295 | F1: 0.9423
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9617 | Recall: 0.9488 | F1: 0.9552
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9674 | Recall: 0.9125 | F1: 0.9391
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9465 | Recall: 0.9267 | F1: 0.9365
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9474 | Recall: 0.9550 | F1: 0.9512
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9548 | Recall: 0.9514 | F1: 0.9531
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9541 | Recall: 0.8818 | F1: 0.9165
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.8667 | F1: 0.9286
+
+education: Masters, size: 1,723, 16
+Precision: 0.9738 | Recall: 0.9708 | F1: 0.9723
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.8519 | F1: 0.9200
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9428 | Recall: 0.9149 | F1: 0.9286
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9438 | Recall: 0.9509 | F1: 0.9474
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9620 | Recall: 0.9114 | F1: 0.9360
+
+education: 7th-8th, size: 646, 16
+Precision: 0.9722 | Recall: 0.8750 | F1: 0.9211
+
+education: Doctorate, size: 413, 16
+Precision: 0.9739 | Recall: 0.9771 | F1: 0.9755
+
+education: Prof-school, size: 576, 16
+Precision: 0.9719 | Recall: 0.9811 | F1: 0.9765
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.8710 | F1: 0.9310
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 1.0000 | Recall: 0.7879 | F1: 0.8814
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9799 | Recall: 0.8941 | F1: 0.9350
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9544 | Recall: 0.9392 | F1: 0.9468
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9737 | Recall: 0.8790 | F1: 0.9240
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 0.9667 | Recall: 0.8529 | F1: 0.9062
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.8182 | F1: 0.9000
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 0.9000 | Recall: 0.9000 | F1: 0.9000
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.8706 | F1: 0.9308
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9681 | Recall: 0.8974 | F1: 0.9314
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9533 | Recall: 0.9553 | F1: 0.9543
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 1.0000 | Recall: 0.8488 | F1: 0.9182
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9596 | Recall: 0.9580 | F1: 0.9588
+
+occupation: Other-service, size: 3,295, 16
+Precision: 0.9744 | Recall: 0.8321 | F1: 0.8976
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9505 | Recall: 0.9369 | F1: 0.9436
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9489 | Recall: 0.8999 | F1: 0.9238
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9595 | Recall: 0.8875 | F1: 0.9221
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9811 | Recall: 0.9043 | F1: 0.9412
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9589 | Recall: 0.8400 | F1: 0.8955
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9850 | Recall: 0.9293 | F1: 0.9564
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9465 | Recall: 0.9267 | F1: 0.9365
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9657 | Recall: 0.9336 | F1: 0.9494
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9796 | Recall: 0.8995 | F1: 0.9379
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9535 | Recall: 0.9388 | F1: 0.9461
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9591 | Recall: 0.9450 | F1: 0.9520
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.7910 | F1: 0.8833
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9731 | Recall: 0.8303 | F1: 0.8960
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.8919 | F1: 0.9429
+
+race: White, size: 27,816, 16
+Precision: 0.9574 | Recall: 0.9316 | F1: 0.9443
+
+race: Black, size: 3,124, 16
+Precision: 0.9523 | Recall: 0.9276 | F1: 0.9398
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9731 | Recall: 0.9167 | F1: 0.9440
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 0.9714 | Recall: 0.9444 | F1: 0.9577
+
+race: Other, size: 271, 16
+Precision: 0.9545 | Recall: 0.8400 | F1: 0.8936
+
+sex: Male, size: 21,790, 16
+Precision: 0.9562 | Recall: 0.9338 | F1: 0.9449
+
+sex: Female, size: 10,771, 16
+Precision: 0.9668 | Recall: 0.9126 | F1: 0.9389
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9570 | Recall: 0.9317 | F1: 0.9442
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 0.9600 | F1: 0.9796
+
+native-country: Jamaica, size: 81, 16
+Precision: 0.9000 | Recall: 0.9000 | F1: 0.9000
+
+native-country: India, size: 100, 16
+Precision: 1.0000 | Recall: 0.9500 | F1: 0.9744
+
+native-country: ?, size: 583, 16
+Precision: 0.9444 | Recall: 0.9315 | F1: 0.9379
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.8788 | F1: 0.9355
+
+native-country: South, size: 80, 16
+Precision: 0.8824 | Recall: 0.9375 | F1: 0.9091
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 0.8462 | Recall: 0.9167 | F1: 0.8800
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 1.0000 | Recall: 0.9667 | F1: 0.9831
+
+native-country: Canada, size: 121, 16
+Precision: 1.0000 | Recall: 0.9744 | F1: 0.9870
+
+native-country: Germany, size: 137, 16
+Precision: 0.9535 | Recall: 0.9318 | F1: 0.9425
+
+native-country: Iran, size: 43, 16
+Precision: 1.0000 | Recall: 0.9444 | F1: 0.9714
+
+native-country: Philippines, size: 198, 16
+Precision: 1.0000 | Recall: 0.8525 | F1: 0.9204
+
+native-country: Italy, size: 73, 16
+Precision: 0.9524 | Recall: 0.8000 | F1: 0.8696
+
+native-country: Poland, size: 60, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Columbia, size: 59, 16
+Precision: 0.5000 | Recall: 0.5000 | F1: 0.5000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.8571 | F1: 0.9231
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Laos, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Taiwan, size: 51, 16
+Precision: 1.0000 | Recall: 0.8500 | F1: 0.9189
+
+native-country: Haiti, size: 44, 16
+Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: El-Salvador, size: 106, 16
+Precision: 0.9000 | Recall: 1.0000 | F1: 0.9474
+
+native-country: France, size: 29, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Guatemala, size: 64, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: China, size: 75, 16
+Precision: 1.0000 | Recall: 0.9500 | F1: 0.9744
+
+native-country: Japan, size: 62, 16
+Precision: 0.9565 | Recall: 0.9167 | F1: 0.9362
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Greece, size: 29, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Nicaragua, size: 34, 16
+Precision: 0.5000 | Recall: 0.5000 | F1: 0.5000
+
+native-country: Vietnam, size: 67, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9708 | Recall: 0.9433 | F1: 0.9569
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9652 | Recall: 0.9185 | F1: 0.9413
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9582 | Recall: 0.9230 | F1: 0.9403
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9528 | Recall: 0.9245 | F1: 0.9384
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9457 | Recall: 0.9319 | F1: 0.9388
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9441 | Recall: 0.8848 | F1: 0.9135
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9504 | Recall: 0.9550 | F1: 0.9527
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9495 | Recall: 0.9482 | F1: 0.9489
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9606 | Recall: 0.8872 | F1: 0.9224
+
+education: 11th, size: 1,175, 16
+Precision: 0.9808 | Recall: 0.8500 | F1: 0.9107
+
+education: Masters, size: 1,723, 16
+Precision: 0.9622 | Recall: 0.9812 | F1: 0.9716
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.8889 | F1: 0.9412
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9529 | Recall: 0.8890 | F1: 0.9198
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9269 | Recall: 0.9094 | F1: 0.9181
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9705 | Recall: 0.9114 | F1: 0.9400
+
+education: 7th-8th, size: 646, 16
+Precision: 0.9667 | Recall: 0.7250 | F1: 0.8286
+
+education: Doctorate, size: 413, 16
+Precision: 0.9556 | Recall: 0.9837 | F1: 0.9694
+
+education: Prof-school, size: 576, 16
+Precision: 0.9813 | Recall: 0.9929 | F1: 0.9871
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.8710 | F1: 0.9310
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 0.9655 | Recall: 0.8485 | F1: 0.9032
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9907 | Recall: 0.8697 | F1: 0.9262
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9531 | Recall: 0.9347 | F1: 0.9438
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9688 | Recall: 0.8726 | F1: 0.9182
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.8636 | F1: 0.9268
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 1.0000 | Recall: 0.9000 | F1: 0.9474
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.8706 | F1: 0.9308
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9518 | Recall: 0.8955 | F1: 0.9228
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9556 | Recall: 0.9619 | F1: 0.9587
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 1.0000 | Recall: 0.7791 | F1: 0.8758
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9604 | Recall: 0.9521 | F1: 0.9562
+
+occupation: Other-service, size: 3,295, 16
+Precision: 0.9583 | Recall: 0.8394 | F1: 0.8949
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9462 | Recall: 0.9308 | F1: 0.9385
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9551 | Recall: 0.8708 | F1: 0.9110
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9661 | Recall: 0.8906 | F1: 0.9268
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9714 | Recall: 0.8870 | F1: 0.9273
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9821 | Recall: 0.8800 | F1: 0.9283
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9673 | Recall: 0.9399 | F1: 0.9534
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9441 | Recall: 0.8848 | F1: 0.9135
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9507 | Recall: 0.9147 | F1: 0.9324
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9800 | Recall: 0.8598 | F1: 0.9160
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9536 | Recall: 0.9339 | F1: 0.9437
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9488 | Recall: 0.9450 | F1: 0.9469
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.8507 | F1: 0.9194
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9854 | Recall: 0.9266 | F1: 0.9551
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.9189 | F1: 0.9577
+
+race: White, size: 27,816, 16
+Precision: 0.9564 | Recall: 0.9281 | F1: 0.9420
+
+race: Black, size: 3,124, 16
+Precision: 0.9667 | Recall: 0.8992 | F1: 0.9317
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9544 | Recall: 0.9094 | F1: 0.9314
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 1.0000 | Recall: 0.9444 | F1: 0.9714
+
+race: Other, size: 271, 16
+Precision: 1.0000 | Recall: 0.8800 | F1: 0.9362
+
+sex: Male, size: 21,790, 16
+Precision: 0.9569 | Recall: 0.9263 | F1: 0.9413
+
+sex: Female, size: 10,771, 16
+Precision: 0.9586 | Recall: 0.9237 | F1: 0.9408
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9570 | Recall: 0.9260 | F1: 0.9412
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 0.7600 | F1: 0.8636
+
+native-country: Jamaica, size: 81, 16
+Precision: 0.8889 | Recall: 0.8000 | F1: 0.8421
+
+native-country: India, size: 100, 16
+Precision: 0.9512 | Recall: 0.9750 | F1: 0.9630
+
+native-country: ?, size: 583, 16
+Precision: 0.9396 | Recall: 0.9589 | F1: 0.9492
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.8182 | F1: 0.9000
+
+native-country: South, size: 80, 16
+Precision: 0.8750 | Recall: 0.8750 | F1: 0.8750
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 0.9655 | Recall: 0.9333 | F1: 0.9492
+
+native-country: Canada, size: 121, 16
+Precision: 1.0000 | Recall: 0.9744 | F1: 0.9870
+
+native-country: Germany, size: 137, 16
+Precision: 0.9545 | Recall: 0.9545 | F1: 0.9545
+
+native-country: Iran, size: 43, 16
+Precision: 0.9000 | Recall: 1.0000 | F1: 0.9474
+
+native-country: Philippines, size: 198, 16
+Precision: 1.0000 | Recall: 0.8852 | F1: 0.9391
+
+native-country: Italy, size: 73, 16
+Precision: 1.0000 | Recall: 0.9200 | F1: 0.9583
+
+native-country: Poland, size: 60, 16
+Precision: 1.0000 | Recall: 0.9167 | F1: 0.9565
+
+native-country: Columbia, size: 59, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.5714 | F1: 0.7273
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Laos, size: 18, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Taiwan, size: 51, 16
+Precision: 1.0000 | Recall: 0.9500 | F1: 0.9744
+
+native-country: Haiti, size: 44, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 0.9167 | Recall: 0.9167 | F1: 0.9167
+
+native-country: Guatemala, size: 64, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: China, size: 75, 16
+Precision: 0.9091 | Recall: 1.0000 | F1: 0.9524
+
+native-country: Japan, size: 62, 16
+Precision: 0.9545 | Recall: 0.8750 | F1: 0.9130
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Greece, size: 29, 16
+Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 0.8000 | Recall: 0.8000 | F1: 0.8000
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9429 | Recall: 0.9348 | F1: 0.9388
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9589 | Recall: 0.9019 | F1: 0.9295
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9561 | Recall: 0.9218 | F1: 0.9387
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9530 | Recall: 0.9299 | F1: 0.9413
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9523 | Recall: 0.9384 | F1: 0.9453
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9553 | Recall: 0.8953 | F1: 0.9243
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9559 | Recall: 0.9759 | F1: 0.9658
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9521 | Recall: 0.9491 | F1: 0.9506
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9522 | Recall: 0.8794 | F1: 0.9143
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.9000 | F1: 0.9474
+
+education: Masters, size: 1,723, 16
+Precision: 0.9707 | Recall: 0.9677 | F1: 0.9692
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.9630 | F1: 0.9811
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9450 | Recall: 0.9048 | F1: 0.9245
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9447 | Recall: 0.9019 | F1: 0.9228
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9500 | Recall: 0.8947 | F1: 0.9215
+
+education: 7th-8th, size: 646, 16
+Precision: 1.0000 | Recall: 0.8250 | F1: 0.9041
+
+education: Doctorate, size: 413, 16
+Precision: 0.9525 | Recall: 0.9837 | F1: 0.9678
+
+education: Prof-school, size: 576, 16
+Precision: 0.9723 | Recall: 0.9953 | F1: 0.9836
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.8710 | F1: 0.9310
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 0.9655 | Recall: 0.8485 | F1: 0.9032
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9931 | Recall: 0.8737 | F1: 0.9296
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9497 | Recall: 0.9357 | F1: 0.9426
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9878 | Recall: 0.8769 | F1: 0.9291
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 0.7647 | F1: 0.8667
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.8788 | F1: 0.9355
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 1.0000 | Recall: 0.7000 | F1: 0.8235
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.8471 | F1: 0.9172
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9378 | Recall: 0.8915 | F1: 0.9141
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9532 | Recall: 0.9629 | F1: 0.9580
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 1.0000 | Recall: 0.8140 | F1: 0.8974
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9641 | Recall: 0.9548 | F1: 0.9595
+
+occupation: Other-service, size: 3,295, 16
+Precision: 0.9832 | Recall: 0.8540 | F1: 0.9141
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9455 | Recall: 0.9349 | F1: 0.9402
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9624 | Recall: 0.8805 | F1: 0.9196
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9550 | Recall: 0.8625 | F1: 0.9064
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9794 | Recall: 0.8261 | F1: 0.8962
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9425 | Recall: 0.8520 | F1: 0.8950
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9382 | Recall: 0.9117 | F1: 0.9247
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9553 | Recall: 0.8953 | F1: 0.9243
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9476 | Recall: 0.9431 | F1: 0.9454
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9908 | Recall: 0.8797 | F1: 0.9319
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9485 | Recall: 0.9344 | F1: 0.9414
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9563 | Recall: 0.9409 | F1: 0.9486
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.8507 | F1: 0.9194
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9946 | Recall: 0.8440 | F1: 0.9132
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.9459 | F1: 0.9722
+
+race: White, size: 27,816, 16
+Precision: 0.9552 | Recall: 0.9255 | F1: 0.9401
+
+race: Black, size: 3,124, 16
+Precision: 0.9547 | Recall: 0.9251 | F1: 0.9396
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9559 | Recall: 0.9420 | F1: 0.9489
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 0.9429 | Recall: 0.9167 | F1: 0.9296
+
+race: Other, size: 271, 16
+Precision: 1.0000 | Recall: 0.8800 | F1: 0.9362
+
+sex: Male, size: 21,790, 16
+Precision: 0.9529 | Recall: 0.9284 | F1: 0.9405
+
+sex: Female, size: 10,771, 16
+Precision: 0.9693 | Recall: 0.9118 | F1: 0.9397
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9551 | Recall: 0.9253 | F1: 0.9399
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 0.8800 | F1: 0.9362
+
+native-country: Jamaica, size: 81, 16
+Precision: 1.0000 | Recall: 0.9000 | F1: 0.9474
+
+native-country: India, size: 100, 16
+Precision: 0.9302 | Recall: 1.0000 | F1: 0.9639
+
+native-country: ?, size: 583, 16
+Precision: 0.9645 | Recall: 0.9315 | F1: 0.9477
+
+native-country: Mexico, size: 643, 16
+Precision: 0.9310 | Recall: 0.8182 | F1: 0.8710
+
+native-country: South, size: 80, 16
+Precision: 0.9286 | Recall: 0.8125 | F1: 0.8667
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 0.8462 | Recall: 0.9167 | F1: 0.8800
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 1.0000 | Recall: 0.9667 | F1: 0.9831
+
+native-country: Canada, size: 121, 16
+Precision: 0.9722 | Recall: 0.8974 | F1: 0.9333
+
+native-country: Germany, size: 137, 16
+Precision: 0.9556 | Recall: 0.9773 | F1: 0.9663
+
+native-country: Iran, size: 43, 16
+Precision: 1.0000 | Recall: 0.8889 | F1: 0.9412
+
+native-country: Philippines, size: 198, 16
+Precision: 0.9531 | Recall: 1.0000 | F1: 0.9760
+
+native-country: Italy, size: 73, 16
+Precision: 0.9259 | Recall: 1.0000 | F1: 0.9615
+
+native-country: Poland, size: 60, 16
+Precision: 0.9091 | Recall: 0.8333 | F1: 0.8696
+
+native-country: Columbia, size: 59, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.8571 | F1: 0.9231
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Laos, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Taiwan, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Haiti, size: 44, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Guatemala, size: 64, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: China, size: 75, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Japan, size: 62, 16
+Precision: 0.9545 | Recall: 0.8750 | F1: 0.9130
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Greece, size: 29, 16
+Precision: 0.8889 | Recall: 1.0000 | F1: 0.9412
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 0.7500 | Recall: 0.6000 | F1: 0.6667
+
+native-country: Hong, size: 20, 16
+Precision: 0.8571 | Recall: 1.0000 | F1: 0.9231
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9516 | Recall: 0.9462 | F1: 0.9489
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9661 | Recall: 0.9061 | F1: 0.9351
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9571 | Recall: 0.9309 | F1: 0.9438
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9677 | Recall: 0.9704 | F1: 0.9690
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9452 | Recall: 0.9222 | F1: 0.9336
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9880 | Recall: 0.8586 | F1: 0.9188
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9545 | Recall: 0.9453 | F1: 0.9499
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9468 | Recall: 0.9622 | F1: 0.9544
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9540 | Recall: 0.8794 | F1: 0.9152
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+education: Masters, size: 1,723, 16
+Precision: 0.9638 | Recall: 0.9718 | F1: 0.9678
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.9630 | F1: 0.9811
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9635 | Recall: 0.8955 | F1: 0.9283
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9472 | Recall: 0.9472 | F1: 0.9472
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9451 | Recall: 0.9058 | F1: 0.9250
+
+education: 7th-8th, size: 646, 16
+Precision: 1.0000 | Recall: 0.8500 | F1: 0.9189
+
+education: Doctorate, size: 413, 16
+Precision: 0.9645 | Recall: 0.9771 | F1: 0.9708
+
+education: Prof-school, size: 576, 16
+Precision: 0.9882 | Recall: 0.9905 | F1: 0.9894
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.8387 | F1: 0.9123
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 1.0000 | Recall: 0.8788 | F1: 0.9355
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9846 | Recall: 0.9145 | F1: 0.9483
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9537 | Recall: 0.9366 | F1: 0.9451
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9732 | Recall: 0.8639 | F1: 0.9153
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 0.8529 | F1: 0.9206
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.9242 | F1: 0.9606
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 1.0000 | Recall: 0.7000 | F1: 0.8235
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.9059 | F1: 0.9506
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9394 | Recall: 0.9172 | F1: 0.9281
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9567 | Recall: 0.9548 | F1: 0.9557
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 0.9865 | Recall: 0.8488 | F1: 0.9125
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9590 | Recall: 0.9683 | F1: 0.9636
+
+occupation: Other-service, size: 3,295, 16
+Precision: 1.0000 | Recall: 0.8394 | F1: 0.9127
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9554 | Recall: 0.9379 | F1: 0.9466
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9498 | Recall: 0.8751 | F1: 0.9109
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9761 | Recall: 0.8938 | F1: 0.9331
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9907 | Recall: 0.9304 | F1: 0.9596
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9610 | Recall: 0.8880 | F1: 0.9231
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9453 | Recall: 0.9152 | F1: 0.9300
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9880 | Recall: 0.8586 | F1: 0.9188
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9534 | Recall: 0.8720 | F1: 0.9109
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9809 | Recall: 0.8984 | F1: 0.9378
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9548 | Recall: 0.9355 | F1: 0.9450
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9450 | Recall: 0.9450 | F1: 0.9450
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.8358 | F1: 0.9106
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9797 | Recall: 0.8853 | F1: 0.9301
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.8919 | F1: 0.9429
+
+race: White, size: 27,816, 16
+Precision: 0.9580 | Recall: 0.9290 | F1: 0.9433
+
+race: Black, size: 3,124, 16
+Precision: 0.9573 | Recall: 0.9276 | F1: 0.9423
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9527 | Recall: 0.9493 | F1: 0.9510
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 0.9444 | Recall: 0.9444 | F1: 0.9444
+
+race: Other, size: 271, 16
+Precision: 0.9600 | Recall: 0.9600 | F1: 0.9600
+
+sex: Male, size: 21,790, 16
+Precision: 0.9571 | Recall: 0.9313 | F1: 0.9440
+
+sex: Female, size: 10,771, 16
+Precision: 0.9611 | Recall: 0.9220 | F1: 0.9411
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9579 | Recall: 0.9286 | F1: 0.9430
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Jamaica, size: 81, 16
+Precision: 0.9000 | Recall: 0.9000 | F1: 0.9000
+
+native-country: India, size: 100, 16
+Precision: 0.9524 | Recall: 1.0000 | F1: 0.9756
+
+native-country: ?, size: 583, 16
+Precision: 0.9216 | Recall: 0.9658 | F1: 0.9431
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.9091 | F1: 0.9524
+
+native-country: South, size: 80, 16
+Precision: 0.9375 | Recall: 0.9375 | F1: 0.9375
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 0.9091 | Recall: 0.8333 | F1: 0.8696
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 0.9643 | Recall: 0.9000 | F1: 0.9310
+
+native-country: Canada, size: 121, 16
+Precision: 0.9459 | Recall: 0.8974 | F1: 0.9211
+
+native-country: Germany, size: 137, 16
+Precision: 1.0000 | Recall: 0.9318 | F1: 0.9647
+
+native-country: Iran, size: 43, 16
+Precision: 0.8947 | Recall: 0.9444 | F1: 0.9189
+
+native-country: Philippines, size: 198, 16
+Precision: 0.9667 | Recall: 0.9508 | F1: 0.9587
+
+native-country: Italy, size: 73, 16
+Precision: 1.0000 | Recall: 0.9200 | F1: 0.9583
+
+native-country: Poland, size: 60, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Columbia, size: 59, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.8571 | F1: 0.9231
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Laos, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Taiwan, size: 51, 16
+Precision: 1.0000 | Recall: 0.9500 | F1: 0.9744
+
+native-country: Haiti, size: 44, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Guatemala, size: 64, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: China, size: 75, 16
+Precision: 0.9091 | Recall: 1.0000 | F1: 0.9524
+
+native-country: Japan, size: 62, 16
+Precision: 0.9545 | Recall: 0.8750 | F1: 0.9130
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 0.8571 | Recall: 1.0000 | F1: 0.9231
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Greece, size: 29, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 0.6667 | Recall: 0.6667 | F1: 0.6667
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9511 | Recall: 0.9377 | F1: 0.9444
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9677 | Recall: 0.9116 | F1: 0.9388
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9568 | Recall: 0.9188 | F1: 0.9374
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9461 | Recall: 0.9461 | F1: 0.9461
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9441 | Recall: 0.9303 | F1: 0.9371
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9368 | Recall: 0.8534 | F1: 0.8932
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9645 | Recall: 0.9598 | F1: 0.9621
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9559 | Recall: 0.9469 | F1: 0.9514
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9565 | Recall: 0.8925 | F1: 0.9234
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.8833 | F1: 0.9381
+
+education: Masters, size: 1,723, 16
+Precision: 0.9470 | Recall: 0.9698 | F1: 0.9583
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.7778 | F1: 0.8750
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9538 | Recall: 0.8933 | F1: 0.9226
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9261 | Recall: 0.8981 | F1: 0.9119
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9628 | Recall: 0.8615 | F1: 0.9094
+
+education: 7th-8th, size: 646, 16
+Precision: 0.9474 | Recall: 0.9000 | F1: 0.9231
+
+education: Doctorate, size: 413, 16
+Precision: 0.9677 | Recall: 0.9804 | F1: 0.9740
+
+education: Prof-school, size: 576, 16
+Precision: 0.9720 | Recall: 0.9835 | F1: 0.9777
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.7903 | F1: 0.8829
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 1.0000 | Recall: 0.7879 | F1: 0.8814
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9884 | Recall: 0.8656 | F1: 0.9229
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9524 | Recall: 0.9332 | F1: 0.9427
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9681 | Recall: 0.8510 | F1: 0.9057
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 0.8824 | F1: 0.9375
+
+marital-status: Separated, size: 1,025, 16
+Precision: 0.9818 | Recall: 0.8182 | F1: 0.8926
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 0.8889 | Recall: 0.8000 | F1: 0.8421
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.9412 | F1: 0.9697
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9424 | Recall: 0.9034 | F1: 0.9225
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9605 | Recall: 0.9522 | F1: 0.9564
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 1.0000 | Recall: 0.9419 | F1: 0.9701
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9556 | Recall: 0.9618 | F1: 0.9587
+
+occupation: Other-service, size: 3,295, 16
+Precision: 0.9748 | Recall: 0.8467 | F1: 0.9062
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9495 | Recall: 0.9186 | F1: 0.9338
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9549 | Recall: 0.8665 | F1: 0.9086
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9751 | Recall: 0.8562 | F1: 0.9118
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 1.0000 | Recall: 0.8870 | F1: 0.9401
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9693 | Recall: 0.8840 | F1: 0.9247
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9391 | Recall: 0.9258 | F1: 0.9324
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9368 | Recall: 0.8534 | F1: 0.8932
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9350 | Recall: 0.8863 | F1: 0.9100
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9777 | Recall: 0.8703 | F1: 0.9209
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9538 | Recall: 0.9341 | F1: 0.9438
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9402 | Recall: 0.9289 | F1: 0.9345
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.7910 | F1: 0.8833
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9843 | Recall: 0.8624 | F1: 0.9193
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.8108 | F1: 0.8955
+
+race: White, size: 27,816, 16
+Precision: 0.9567 | Recall: 0.9252 | F1: 0.9407
+
+race: Black, size: 3,124, 16
+Precision: 0.9639 | Recall: 0.8966 | F1: 0.9290
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9336 | Recall: 0.9167 | F1: 0.9250
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 0.9375 | Recall: 0.8333 | F1: 0.8824
+
+race: Other, size: 271, 16
+Precision: 0.9545 | Recall: 0.8400 | F1: 0.8936
+
+sex: Male, size: 21,790, 16
+Precision: 0.9565 | Recall: 0.9245 | F1: 0.9402
+
+sex: Female, size: 10,771, 16
+Precision: 0.9539 | Recall: 0.9135 | F1: 0.9333
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9570 | Recall: 0.9240 | F1: 0.9402
+
+native-country: Cuba, size: 95, 16
+Precision: 0.9200 | Recall: 0.9200 | F1: 0.9200
+
+native-country: Jamaica, size: 81, 16
+Precision: 0.8571 | Recall: 0.6000 | F1: 0.7059
+
+native-country: India, size: 100, 16
+Precision: 0.8444 | Recall: 0.9500 | F1: 0.8941
+
+native-country: ?, size: 583, 16
+Precision: 0.9627 | Recall: 0.8836 | F1: 0.9214
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.8485 | F1: 0.9180
+
+native-country: South, size: 80, 16
+Precision: 0.8235 | Recall: 0.8750 | F1: 0.8485
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 1.0000 | Recall: 0.9167 | F1: 0.9565
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 0.9355 | Recall: 0.9667 | F1: 0.9508
+
+native-country: Canada, size: 121, 16
+Precision: 1.0000 | Recall: 0.9487 | F1: 0.9737
+
+native-country: Germany, size: 137, 16
+Precision: 1.0000 | Recall: 0.9545 | F1: 0.9767
+
+native-country: Iran, size: 43, 16
+Precision: 0.9000 | Recall: 1.0000 | F1: 0.9474
+
+native-country: Philippines, size: 198, 16
+Precision: 0.9322 | Recall: 0.9016 | F1: 0.9167
+
+native-country: Italy, size: 73, 16
+Precision: 1.0000 | Recall: 0.8800 | F1: 0.9362
+
+native-country: Poland, size: 60, 16
+Precision: 1.0000 | Recall: 0.9167 | F1: 0.9565
+
+native-country: Columbia, size: 59, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: Ecuador, size: 28, 16
+Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+
+native-country: Laos, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Taiwan, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Haiti, size: 44, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 0.9231 | Recall: 1.0000 | F1: 0.9600
+
+native-country: Guatemala, size: 64, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: China, size: 75, 16
+Precision: 0.8571 | Recall: 0.9000 | F1: 0.8780
+
+native-country: Japan, size: 62, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Greece, size: 29, 16
+Precision: 0.8889 | Recall: 1.0000 | F1: 0.9412
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9542 | Recall: 0.9433 | F1: 0.9487
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9714 | Recall: 0.8923 | F1: 0.9302
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9538 | Recall: 0.9238 | F1: 0.9386
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9335 | Recall: 0.9461 | F1: 0.9398
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9522 | Recall: 0.9368 | F1: 0.9444
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9657 | Recall: 0.8848 | F1: 0.9235
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9553 | Recall: 0.9614 | F1: 0.9583
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9508 | Recall: 0.9577 | F1: 0.9542
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9540 | Recall: 0.8663 | F1: 0.9080
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.7833 | F1: 0.8785
+
+education: Masters, size: 1,723, 16
+Precision: 0.9638 | Recall: 0.9729 | F1: 0.9683
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.7778 | F1: 0.8750
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9448 | Recall: 0.9012 | F1: 0.9225
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9653 | Recall: 0.9434 | F1: 0.9542
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9331 | Recall: 0.9280 | F1: 0.9306
+
+education: 7th-8th, size: 646, 16
+Precision: 0.9706 | Recall: 0.8250 | F1: 0.8919
+
+education: Doctorate, size: 413, 16
+Precision: 0.9771 | Recall: 0.9771 | F1: 0.9771
+
+education: Prof-school, size: 576, 16
+Precision: 0.9630 | Recall: 0.9835 | F1: 0.9731
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 10th, size: 933, 16
+Precision: 1.0000 | Recall: 0.7742 | F1: 0.8727
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 1.0000 | Recall: 0.8788 | F1: 0.9355
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9818 | Recall: 0.8778 | F1: 0.9269
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9491 | Recall: 0.9311 | F1: 0.9400
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9930 | Recall: 0.9201 | F1: 0.9552
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 0.8235 | F1: 0.9032
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.9242 | F1: 0.9606
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.8824 | F1: 0.9375
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9337 | Recall: 0.9172 | F1: 0.9254
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9539 | Recall: 0.9558 | F1: 0.9548
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 1.0000 | Recall: 0.8953 | F1: 0.9448
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9598 | Recall: 0.9640 | F1: 0.9619
+
+occupation: Other-service, size: 3,295, 16
+Precision: 1.0000 | Recall: 0.8248 | F1: 0.9040
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9500 | Recall: 0.9278 | F1: 0.9388
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9576 | Recall: 0.8762 | F1: 0.9151
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9607 | Recall: 0.8406 | F1: 0.8967
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9806 | Recall: 0.8783 | F1: 0.9266
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9289 | Recall: 0.8360 | F1: 0.8800
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9455 | Recall: 0.9187 | F1: 0.9319
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9657 | Recall: 0.8848 | F1: 0.9235
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9423 | Recall: 0.9289 | F1: 0.9356
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9871 | Recall: 0.8914 | F1: 0.9368
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9475 | Recall: 0.9326 | F1: 0.9400
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9611 | Recall: 0.9289 | F1: 0.9447
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.8060 | F1: 0.8926
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9950 | Recall: 0.9128 | F1: 0.9522
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.8919 | F1: 0.9429
+
+race: White, size: 27,816, 16
+Precision: 0.9548 | Recall: 0.9283 | F1: 0.9414
+
+race: Black, size: 3,124, 16
+Precision: 0.9559 | Recall: 0.8966 | F1: 0.9253
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9509 | Recall: 0.9130 | F1: 0.9316
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 0.9394 | Recall: 0.8611 | F1: 0.8986
+
+race: Other, size: 271, 16
+Precision: 0.9583 | Recall: 0.9200 | F1: 0.9388
+
+sex: Male, size: 21,790, 16
+Precision: 0.9514 | Recall: 0.9287 | F1: 0.9399
+
+sex: Female, size: 10,771, 16
+Precision: 0.9737 | Recall: 0.9101 | F1: 0.9408
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9543 | Recall: 0.9260 | F1: 0.9399
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 0.9600 | F1: 0.9796
+
+native-country: Jamaica, size: 81, 16
+Precision: 1.0000 | Recall: 0.9000 | F1: 0.9474
+
+native-country: India, size: 100, 16
+Precision: 0.9286 | Recall: 0.9750 | F1: 0.9512
+
+native-country: ?, size: 583, 16
+Precision: 0.9444 | Recall: 0.9315 | F1: 0.9379
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.9091 | F1: 0.9524
+
+native-country: South, size: 80, 16
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Canada, size: 121, 16
+Precision: 0.9429 | Recall: 0.8462 | F1: 0.8919
+
+native-country: Germany, size: 137, 16
+Precision: 0.9767 | Recall: 0.9545 | F1: 0.9655
+
+native-country: Iran, size: 43, 16
+Precision: 0.9412 | Recall: 0.8889 | F1: 0.9143
+
+native-country: Philippines, size: 198, 16
+Precision: 0.9655 | Recall: 0.9180 | F1: 0.9412
+
+native-country: Italy, size: 73, 16
+Precision: 0.9600 | Recall: 0.9600 | F1: 0.9600
+
+native-country: Poland, size: 60, 16
+Precision: 0.8462 | Recall: 0.9167 | F1: 0.8800
+
+native-country: Columbia, size: 59, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.8571 | F1: 0.9231
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Laos, size: 18, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Taiwan, size: 51, 16
+Precision: 0.9500 | Recall: 0.9500 | F1: 0.9500
+
+native-country: Haiti, size: 44, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 0.9167 | Recall: 0.9167 | F1: 0.9167
+
+native-country: Guatemala, size: 64, 16
+Precision: 0.6667 | Recall: 0.6667 | F1: 0.6667
+
+native-country: China, size: 75, 16
+Precision: 0.9474 | Recall: 0.9000 | F1: 0.9231
+
+native-country: Japan, size: 62, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Greece, size: 29, 16
+Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 0.6000 | F1: 0.7500
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 16
+Precision: 0.9595 | Recall: 0.9405 | F1: 0.9499
+
+workclass: Self-emp-not-inc, size: 2,541, 16
+Precision: 0.9658 | Recall: 0.8978 | F1: 0.9306
+
+workclass: Private, size: 22,696, 16
+Precision: 0.9554 | Recall: 0.9228 | F1: 0.9388
+
+workclass: Federal-gov, size: 960, 16
+Precision: 0.9537 | Recall: 0.9434 | F1: 0.9485
+
+workclass: Local-gov, size: 2,093, 16
+Precision: 0.9597 | Recall: 0.9271 | F1: 0.9431
+
+workclass: ?, size: 1,836, 16
+Precision: 0.9653 | Recall: 0.8743 | F1: 0.9176
+
+workclass: Self-emp-inc, size: 1,116, 16
+Precision: 0.9538 | Recall: 0.9630 | F1: 0.9584
+
+workclass: Without-pay, size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 16
+Precision: 0.9507 | Recall: 0.9383 | F1: 0.9445
+
+education: HS-grad, size: 10,501, 16
+Precision: 0.9631 | Recall: 0.8872 | F1: 0.9236
+
+education: 11th, size: 1,175, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+education: Masters, size: 1,723, 16
+Precision: 0.9675 | Recall: 0.9625 | F1: 0.9650
+
+education: 9th, size: 514, 16
+Precision: 1.0000 | Recall: 0.7407 | F1: 0.8511
+
+education: Some-college, size: 7,291, 16
+Precision: 0.9389 | Recall: 0.9092 | F1: 0.9238
+
+education: Assoc-acdm, size: 1,067, 16
+Precision: 0.9728 | Recall: 0.9434 | F1: 0.9579
+
+education: Assoc-voc, size: 1,382, 16
+Precision: 0.9642 | Recall: 0.8947 | F1: 0.9282
+
+education: 7th-8th, size: 646, 16
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+education: Doctorate, size: 413, 16
+Precision: 0.9524 | Recall: 0.9804 | F1: 0.9662
+
+education: Prof-school, size: 576, 16
+Precision: 0.9677 | Recall: 0.9905 | F1: 0.9790
+
+education: 5th-6th, size: 333, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 10th, size: 933, 16
+Precision: 0.9818 | Recall: 0.8710 | F1: 0.9231
+
+education: 1st-4th, size: 168, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+education: Preschool, size: 51, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 16
+Precision: 1.0000 | Recall: 0.7879 | F1: 0.8814
+
+marital-status: Never-married, size: 10,683, 16
+Precision: 0.9862 | Recall: 0.8737 | F1: 0.9266
+
+marital-status: Married-civ-spouse, size: 14,976, 16
+Precision: 0.9519 | Recall: 0.9348 | F1: 0.9433
+
+marital-status: Divorced, size: 4,443, 16
+Precision: 0.9877 | Recall: 0.8683 | F1: 0.9241
+
+marital-status: Married-spouse-absent, size: 418, 16
+Precision: 1.0000 | Recall: 0.9118 | F1: 0.9538
+
+marital-status: Separated, size: 1,025, 16
+Precision: 1.0000 | Recall: 0.8182 | F1: 0.9000
+
+marital-status: Married-AF-spouse, size: 23, 16
+Precision: 1.0000 | Recall: 0.8000 | F1: 0.8889
+
+marital-status: Widowed, size: 993, 16
+Precision: 1.0000 | Recall: 0.8235 | F1: 0.9032
+
+occupation: Adm-clerical, size: 3,770, 16
+Precision: 0.9538 | Recall: 0.8955 | F1: 0.9237
+
+occupation: Exec-managerial, size: 4,066, 16
+Precision: 0.9543 | Recall: 0.9548 | F1: 0.9545
+
+occupation: Handlers-cleaners, size: 1,370, 16
+Precision: 0.9744 | Recall: 0.8837 | F1: 0.9268
+
+occupation: Prof-specialty, size: 4,140, 16
+Precision: 0.9600 | Recall: 0.9543 | F1: 0.9571
+
+occupation: Other-service, size: 3,295, 16
+Precision: 0.9910 | Recall: 0.8029 | F1: 0.8871
+
+occupation: Sales, size: 3,650, 16
+Precision: 0.9420 | Recall: 0.9257 | F1: 0.9338
+
+occupation: Craft-repair, size: 4,099, 16
+Precision: 0.9564 | Recall: 0.8967 | F1: 0.9256
+
+occupation: Transport-moving, size: 1,597, 16
+Precision: 0.9755 | Recall: 0.8719 | F1: 0.9208
+
+occupation: Farming-fishing, size: 994, 16
+Precision: 0.9694 | Recall: 0.8261 | F1: 0.8920
+
+occupation: Machine-op-inspct, size: 2,002, 16
+Precision: 0.9689 | Recall: 0.8720 | F1: 0.9179
+
+occupation: Tech-support, size: 928, 16
+Precision: 0.9491 | Recall: 0.9223 | F1: 0.9355
+
+occupation: ?, size: 1,843, 16
+Precision: 0.9653 | Recall: 0.8743 | F1: 0.9176
+
+occupation: Protective-serv, size: 649, 16
+Precision: 0.9648 | Recall: 0.9100 | F1: 0.9366
+
+occupation: Armed-Forces, size: 9, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 16
+Precision: 0.9880 | Recall: 0.8680 | F1: 0.9241
+
+relationship: Husband, size: 13,193, 16
+Precision: 0.9511 | Recall: 0.9338 | F1: 0.9424
+
+relationship: Wife, size: 1,568, 16
+Precision: 0.9566 | Recall: 0.9463 | F1: 0.9514
+
+relationship: Own-child, size: 5,068, 16
+Precision: 1.0000 | Recall: 0.8955 | F1: 0.9449
+
+relationship: Unmarried, size: 3,446, 16
+Precision: 0.9892 | Recall: 0.8440 | F1: 0.9109
+
+relationship: Other-relative, size: 981, 16
+Precision: 1.0000 | Recall: 0.8649 | F1: 0.9275
+
+race: White, size: 27,816, 16
+Precision: 0.9562 | Recall: 0.9261 | F1: 0.9409
+
+race: Black, size: 3,124, 16
+Precision: 0.9675 | Recall: 0.9225 | F1: 0.9444
+
+race: Asian-Pac-Islander, size: 1,039, 16
+Precision: 0.9612 | Recall: 0.8986 | F1: 0.9288
+
+race: Amer-Indian-Eskimo, size: 311, 16
+Precision: 1.0000 | Recall: 0.9167 | F1: 0.9565
+
+race: Other, size: 271, 16
+Precision: 0.8750 | Recall: 0.8400 | F1: 0.8571
+
+sex: Male, size: 21,790, 16
+Precision: 0.9546 | Recall: 0.9284 | F1: 0.9413
+
+sex: Female, size: 10,771, 16
+Precision: 0.9699 | Recall: 0.9033 | F1: 0.9354
+
+native-country: United-States, size: 29,170, 16
+Precision: 0.9566 | Recall: 0.9255 | F1: 0.9408
+
+native-country: Cuba, size: 95, 16
+Precision: 1.0000 | Recall: 0.8400 | F1: 0.9130
+
+native-country: Jamaica, size: 81, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: India, size: 100, 16
+Precision: 0.9474 | Recall: 0.9000 | F1: 0.9231
+
+native-country: ?, size: 583, 16
+Precision: 0.9500 | Recall: 0.9110 | F1: 0.9301
+
+native-country: Mexico, size: 643, 16
+Precision: 1.0000 | Recall: 0.9697 | F1: 0.9846
+
+native-country: South, size: 80, 16
+Precision: 1.0000 | Recall: 0.9375 | F1: 0.9677
+
+native-country: Puerto-Rico, size: 114, 16
+Precision: 0.9167 | Recall: 0.9167 | F1: 0.9167
+
+native-country: Honduras, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 16
+Precision: 0.9643 | Recall: 0.9000 | F1: 0.9310
+
+native-country: Canada, size: 121, 16
+Precision: 0.9268 | Recall: 0.9744 | F1: 0.9500
+
+native-country: Germany, size: 137, 16
+Precision: 0.9535 | Recall: 0.9318 | F1: 0.9425
+
+native-country: Iran, size: 43, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Philippines, size: 198, 16
+Precision: 1.0000 | Recall: 0.8525 | F1: 0.9204
+
+native-country: Italy, size: 73, 16
+Precision: 1.0000 | Recall: 0.9600 | F1: 0.9796
+
+native-country: Poland, size: 60, 16
+Precision: 0.9091 | Recall: 0.8333 | F1: 0.8696
+
+native-country: Columbia, size: 59, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Cambodia, size: 19, 16
+Precision: 1.0000 | Recall: 0.5714 | F1: 0.7273
+
+native-country: Thailand, size: 18, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ecuador, size: 28, 16
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Laos, size: 18, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Taiwan, size: 51, 16
+Precision: 0.9000 | Recall: 0.9000 | F1: 0.9000
+
+native-country: Haiti, size: 44, 16
+Precision: 0.7500 | Recall: 0.7500 | F1: 0.7500
+
+native-country: Portugal, size: 37, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Dominican-Republic, size: 70, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: El-Salvador, size: 106, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 16
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Guatemala, size: 64, 16
+Precision: 0.6667 | Recall: 0.6667 | F1: 0.6667
+
+native-country: China, size: 75, 16
+Precision: 0.9500 | Recall: 0.9500 | F1: 0.9500
+
+native-country: Japan, size: 62, 16
+Precision: 0.9600 | Recall: 1.0000 | F1: 0.9796
+
+native-country: Yugoslavia, size: 16, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Peru, size: 31, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 16
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Greece, size: 29, 16
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+native-country: Nicaragua, size: 34, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hong, size: 20, 16
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: Ireland, size: 24, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Holand-Netherlands, size: 1, 16
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: State-gov, size: 1,298, 15
+Precision: 0.9460 | Recall: 0.9433 | F1: 0.9447
+
+workclass: Self-emp-not-inc, size: 2,541, 15
+Precision: 0.9658 | Recall: 0.8978 | F1: 0.9306
+
+workclass: Private, size: 22,696, 15
+Precision: 0.9519 | Recall: 0.9218 | F1: 0.9366
+
+workclass: Federal-gov, size: 960, 15
+Precision: 0.9635 | Recall: 0.9245 | F1: 0.9436
+
+workclass: Local-gov, size: 2,093, 15
+Precision: 0.9369 | Recall: 0.9384 | F1: 0.9377
+
+workclass: ?, size: 1,836, 15
+Precision: 0.9282 | Recall: 0.8796 | F1: 0.9032
+
+workclass: Self-emp-inc, size: 1,116, 15
+Precision: 0.9487 | Recall: 0.9518 | F1: 0.9502
+
+workclass: Without-pay, size: 14, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+workclass: Never-worked, size: 7, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Bachelors, size: 5,355, 15
+Precision: 0.9458 | Recall: 0.9433 | F1: 0.9445
+
+education: HS-grad, size: 10,501, 15
+Precision: 0.9408 | Recall: 0.8824 | F1: 0.9107
+
+education: 11th, size: 1,175, 15
+Precision: 1.0000 | Recall: 0.9000 | F1: 0.9474
+
+education: Masters, size: 1,723, 15
+Precision: 0.9598 | Recall: 0.9698 | F1: 0.9647
+
+education: 9th, size: 514, 15
+Precision: 1.0000 | Recall: 0.8148 | F1: 0.8980
+
+education: Some-college, size: 7,291, 15
+Precision: 0.9389 | Recall: 0.8969 | F1: 0.9174
+
+education: Assoc-acdm, size: 1,067, 15
+Precision: 0.9679 | Recall: 0.9094 | F1: 0.9377
+
+education: Assoc-voc, size: 1,382, 15
+Precision: 0.9617 | Recall: 0.9030 | F1: 0.9314
+
+education: 7th-8th, size: 646, 15
+Precision: 1.0000 | Recall: 0.8250 | F1: 0.9041
+
+education: Doctorate, size: 413, 15
+Precision: 0.9799 | Recall: 0.9575 | F1: 0.9686
+
+education: Prof-school, size: 576, 15
+Precision: 0.9810 | Recall: 0.9764 | F1: 0.9787
+
+education: 5th-6th, size: 333, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 10th, size: 933, 15
+Precision: 0.9833 | Recall: 0.9516 | F1: 0.9672
+
+education: 1st-4th, size: 168, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: Preschool, size: 51, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+education: 12th, size: 433, 15
+Precision: 0.9677 | Recall: 0.9091 | F1: 0.9375
+
+marital-status: Never-married, size: 10,683, 15
+Precision: 0.9751 | Recall: 0.8778 | F1: 0.9239
+
+marital-status: Married-civ-spouse, size: 14,976, 15
+Precision: 0.9472 | Recall: 0.9337 | F1: 0.9404
+
+marital-status: Divorced, size: 4,443, 15
+Precision: 0.9778 | Recall: 0.8575 | F1: 0.9137
+
+marital-status: Married-spouse-absent, size: 418, 15
+Precision: 0.9655 | Recall: 0.8235 | F1: 0.8889
+
+marital-status: Separated, size: 1,025, 15
+Precision: 1.0000 | Recall: 0.8939 | F1: 0.9440
+
+marital-status: Married-AF-spouse, size: 23, 15
+Precision: 1.0000 | Recall: 0.7000 | F1: 0.8235
+
+marital-status: Widowed, size: 993, 15
+Precision: 0.9859 | Recall: 0.8235 | F1: 0.8974
+
+occupation: Adm-clerical, size: 3,770, 15
+Precision: 0.9347 | Recall: 0.9034 | F1: 0.9188
+
+occupation: Exec-managerial, size: 4,066, 15
+Precision: 0.9580 | Recall: 0.9512 | F1: 0.9546
+
+occupation: Handlers-cleaners, size: 1,370, 15
+Precision: 1.0000 | Recall: 0.8721 | F1: 0.9317
+
+occupation: Prof-specialty, size: 4,140, 15
+Precision: 0.9588 | Recall: 0.9510 | F1: 0.9549
+
+occupation: Other-service, size: 3,295, 15
+Precision: 0.9823 | Recall: 0.8102 | F1: 0.8880
+
+occupation: Sales, size: 3,650, 15
+Precision: 0.9463 | Recall: 0.9135 | F1: 0.9296
+
+occupation: Craft-repair, size: 4,099, 15
+Precision: 0.9424 | Recall: 0.8977 | F1: 0.9195
+
+occupation: Transport-moving, size: 1,597, 15
+Precision: 0.9492 | Recall: 0.8750 | F1: 0.9106
+
+occupation: Farming-fishing, size: 994, 15
+Precision: 0.9604 | Recall: 0.8435 | F1: 0.8981
+
+occupation: Machine-op-inspct, size: 2,002, 15
+Precision: 0.9367 | Recall: 0.8880 | F1: 0.9117
+
+occupation: Tech-support, size: 928, 15
+Precision: 0.9462 | Recall: 0.9329 | F1: 0.9395
+
+occupation: ?, size: 1,843, 15
+Precision: 0.9282 | Recall: 0.8796 | F1: 0.9032
+
+occupation: Protective-serv, size: 649, 15
+Precision: 0.9317 | Recall: 0.9052 | F1: 0.9183
+
+occupation: Armed-Forces, size: 9, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+occupation: Priv-house-serv, size: 149, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+relationship: Not-in-family, size: 8,305, 15
+Precision: 0.9762 | Recall: 0.8633 | F1: 0.9163
+
+relationship: Husband, size: 13,193, 15
+Precision: 0.9489 | Recall: 0.9346 | F1: 0.9417
+
+relationship: Wife, size: 1,568, 15
+Precision: 0.9325 | Recall: 0.9275 | F1: 0.9300
+
+relationship: Own-child, size: 5,068, 15
+Precision: 1.0000 | Recall: 0.8358 | F1: 0.9106
+
+relationship: Unmarried, size: 3,446, 15
+Precision: 0.9795 | Recall: 0.8761 | F1: 0.9249
+
+relationship: Other-relative, size: 981, 15
+Precision: 1.0000 | Recall: 0.8649 | F1: 0.9275
+
+race: White, size: 27,816, 15
+Precision: 0.9513 | Recall: 0.9243 | F1: 0.9376
+
+race: Black, size: 3,124, 15
+Precision: 0.9514 | Recall: 0.9096 | F1: 0.9300
+
+race: Asian-Pac-Islander, size: 1,039, 15
+Precision: 0.9515 | Recall: 0.9239 | F1: 0.9375
+
+race: Amer-Indian-Eskimo, size: 311, 15
+Precision: 0.9706 | Recall: 0.9167 | F1: 0.9429
+
+race: Other, size: 271, 15
+Precision: 0.9565 | Recall: 0.8800 | F1: 0.9167
+
+sex: Male, size: 21,790, 15
+Precision: 0.9518 | Recall: 0.9276 | F1: 0.9396
+
+sex: Female, size: 10,771, 15
+Precision: 0.9490 | Recall: 0.8991 | F1: 0.9233
+
+native-country: United-States, size: 29,170, 15
+Precision: 0.9505 | Recall: 0.9236 | F1: 0.9368
+
+native-country: Cuba, size: 95, 15
+Precision: 1.0000 | Recall: 0.8400 | F1: 0.9130
+
+native-country: Jamaica, size: 81, 15
+Precision: 0.8889 | Recall: 0.8000 | F1: 0.8421
+
+native-country: India, size: 100, 15
+Precision: 0.9024 | Recall: 0.9250 | F1: 0.9136
+
+native-country: ?, size: 583, 15
+Precision: 0.9589 | Recall: 0.9589 | F1: 0.9589
+
+native-country: Mexico, size: 643, 15
+Precision: 1.0000 | Recall: 0.7879 | F1: 0.8814
+
+native-country: South, size: 80, 15
+Precision: 0.9333 | Recall: 0.8750 | F1: 0.9032
+
+native-country: Puerto-Rico, size: 114, 15
+Precision: 1.0000 | Recall: 0.9167 | F1: 0.9565
+
+native-country: Honduras, size: 13, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: England, size: 90, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Canada, size: 121, 15
+Precision: 1.0000 | Recall: 0.8974 | F1: 0.9459
+
+native-country: Germany, size: 137, 15
+Precision: 0.9512 | Recall: 0.8864 | F1: 0.9176
+
+native-country: Iran, size: 43, 15
+Precision: 0.8571 | Recall: 1.0000 | F1: 0.9231
+
+native-country: Philippines, size: 198, 15
+Precision: 0.9500 | Recall: 0.9344 | F1: 0.9421
+
+native-country: Italy, size: 73, 15
+Precision: 0.9600 | Recall: 0.9600 | F1: 0.9600
+
+native-country: Poland, size: 60, 15
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Columbia, size: 59, 15
+Precision: 0.6667 | Recall: 1.0000 | F1: 0.8000
+
+native-country: Cambodia, size: 19, 15
+Precision: 1.0000 | Recall: 0.8571 | F1: 0.9231
+
+native-country: Thailand, size: 18, 15
+Precision: 1.0000 | Recall: 0.3333 | F1: 0.5000
+
+native-country: Ecuador, size: 28, 15
+Precision: 1.0000 | Recall: 0.7500 | F1: 0.8571
+
+native-country: Laos, size: 18, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Taiwan, size: 51, 15
+Precision: 0.9500 | Recall: 0.9500 | F1: 0.9500
+
+native-country: Haiti, size: 44, 15
+Precision: 0.8000 | Recall: 1.0000 | F1: 0.8889
+
+native-country: Portugal, size: 37, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Dominican-Republic, size: 70, 15
+Precision: 1.0000 | Recall: 0.5000 | F1: 0.6667
+
+native-country: El-Salvador, size: 106, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: France, size: 29, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Guatemala, size: 64, 15
+Precision: 1.0000 | Recall: 0.6667 | F1: 0.8000
+
+native-country: China, size: 75, 15
+Precision: 0.9524 | Recall: 1.0000 | F1: 0.9756
+
+native-country: Japan, size: 62, 15
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+native-country: Yugoslavia, size: 16, 15
+Precision: 1.0000 | Recall: 0.8333 | F1: 0.9091
+
+native-country: Peru, size: 31, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Outlying-US(Guam-USVI-etc), size: 14, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Scotland, size: 12, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Trinadad&Tobago, size: 19, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Greece, size: 29, 15
+Precision: 1.0000 | Recall: 0.8750 | F1: 0.9333
+
+native-country: Nicaragua, size: 34, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Vietnam, size: 67, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hong, size: 20, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Ireland, size: 24, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Hungary, size: 13, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
+native-country: Holand-Netherlands, size: 1, 15
+Precision: 1.0000 | Recall: 1.0000 | F1: 1.0000
+
