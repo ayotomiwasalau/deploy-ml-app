@@ -12,20 +12,20 @@ def test_client():
 @pytest.fixture
 def valid_data():
     data = {
-        "age": 39,
+        "age": 45,
         "workclass": "Private",
         "fnlgt": 178356,
         "education": "Bachelors",
-        "education_num": 13,
+        "education_num": 9,
         "marital_status": "Never-married",
         "occupation": "Prof-specialty",
         "relationship": "Husband",
         "race": "White",
         "sex": "Female",
-        "capital_gain": 2174,
+        "capital_gain": 4236,
         "capital_loss": 0,
-        "hours_per_week": 40,
-        "native_country": "United-States"
+        "hours_per_week": 45,
+        "native_country": "Puerto-Rico"
     }
     return data
 

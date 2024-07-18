@@ -18,20 +18,20 @@ path = "app/model/rf_model.pkl"
 model = pickle.load(open(path, 'rb'))
 
 class Data(BaseModel):
-    age: int = Field(None, example=39)
+    age: int = Field(None, example=45)
     workclass: str = Field(None, example='Private')
     fnlgt: int = Field(None, example=178356)
     education: str = Field(None, example='Bachelors')
-    education_num: int = Field(None, example=13)
+    education_num: int = Field(None, example=9)
     marital_status: str = Field(None, example='Never-married')
     occupation: str = Field(None, example='Prof-specialty')
     relationship: str = Field(None, example='Husband')
     race: str = Field(None, example='White')
     sex: str = Field(None, example='Female')
-    capital_gain: int = Field(None, example=2174)
+    capital_gain: int = Field(None, example=4236)
     capital_loss: int = Field(None, example=0)
-    hours_per_week: int = Field(None, example=40)
-    native_country: str = Field(None, example='United-States')
+    hours_per_week: int = Field(None, example=45)
+    native_country: str = Field(None, example='Puerto-Rico')
 
 
 app = FastAPI()
@@ -81,5 +81,3 @@ async def make_prediction(data: Data):
     except Exception as e:
          raise HTTPException(status_code=422, detail={"message": {e}})
 
-#TODO: sanity check
-#TODO: post script
