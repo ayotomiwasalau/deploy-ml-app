@@ -47,7 +47,6 @@ async def make_prediction(data: Data):
     data = {k.replace("_", "-"): [v] for k, v in data_dict.items()}
 
     data = pd.DataFrame.from_dict(data)
-    print(data)
 
     try:
 
