@@ -44,6 +44,52 @@ def test_predict_with_valid_data(test_client, valid_data):
     assert response.status_code == 200
     assert "message" in response.json()
 
+def test_predict_below_50k():
+    """ Test an example when income is less than 50K """
+
+    r = client.post("/predict", json = {
+        "age": 50,
+        "workclass": "Private",
+        "fnlgt": 178356,
+        "education": "Maters",
+        "education_num": 9,
+        "marital_status": "Never-married",
+        "occupation": "Prof-specialty",
+        "relationship": "Husband",
+        "race": "White",
+        "sex": "Male",
+        "capital_gain": 244236,
+        "capital_loss": 0,
+        "hours_per_week": 45,
+        "native_country": "United-States"
+    })
+
+    assert r.status_code == 200
+    assert r.json() == {"message": ">50K"}
+
+
+def test_predict_above_50k():
+    """ Test an example when income is higher than 50K """
+    r = client.post("/predict", json= {
+        "age": 45,
+        "workclass": "Private",
+        "fnlgt": 178356,
+        "education": "Bachelors",
+        "education_num": 9,
+        "marital_status": "Never-married",
+        "occupation": "Prof-specialty",
+        "relationship": "Husband",
+        "race": "White",
+        "sex": "Female",
+        "capital_gain": 4236,
+        "capital_loss": 0,
+        "hours_per_week": 45,
+        "native_country": "Puerto-Rico"
+    })
+
+    assert r.status_code == 200
+    assert r.json() == {"message": "<=50K"}
+
 def test_predict_with_missing_feature(test_client, invalid_data):
     response = test_client.post("/predict", json=invalid_data)
     print(response.status_code)
