@@ -5,8 +5,11 @@ To run the training script of the model, from the project root directory, run `p
 
 `main.py` contains the endpoint for the interacting with the model
 
+```
 GET / HTTP/2.0
 POST /predict HTTP/2.0
+```
+
 
 
 ```
